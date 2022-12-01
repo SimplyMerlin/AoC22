@@ -17,5 +17,5 @@ fun main() {
 
     list.sortDescending()
     println("A is ${list[0]}")
-    println("B is ${list[0] + list[1] + list[2]}")
+    println("B is ${list.slice(0..2).sum()}")
 }
